@@ -60,7 +60,7 @@ jobs:
       - name: Extract using Crave
         timeout-minutes: 180  
         run: |
-            git clone https://github.com/DumprX/DumprX
+            git clone https://github.com/neilchetty/Dumper-Script.git DumprX
             cp crave.conf DumprX/crave.conf
             cd DumprX
                 echo "${{ secrets.GITLAB_TOKEN }}" > .gitlab_token  # Only for Gitlab
