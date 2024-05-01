@@ -38,7 +38,7 @@ jobs:
 
        - name: Clone Our Firmware Dumper
          run: |
-              git clone https://github.com/DumprX/DumprX.git DumprX
+               git clone https://github.com/neilchetty/Dumper-Script.git DumprX
 
        - name: Setup DumprX's Environment
          working-directory: DumprX
